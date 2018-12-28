@@ -1,4 +1,5 @@
-# PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
+# Problem Solving
+PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
 
 ## BOJ
 
