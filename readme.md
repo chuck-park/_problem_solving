@@ -1,6 +1,8 @@
-# BOJ
+# PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
 
-## cpp
+## BOJ
+
+### cpp
 - 10950 A+B - 3
 - 10951 A+B - 4
 - 10952 A+B - 5
@@ -8,7 +10,7 @@
 - 2675 Repeating Characters
 - 1100 하얀칸
 
-## python
+### python
 - 10929 SHA-224
 - 11718 그대로 출력하기
 
