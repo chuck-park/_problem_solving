@@ -17,4 +17,24 @@ PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
 
 # 참고링크
 - [박트리님의 알고리즘 공부방법/순서](http://baactree.tistory.com/14)
-- [사용하기 편한 webIDE - ideone](https://ideone.com/)
+- [ideone - 사용하기 편한 webIDE](https://ideone.com/)
+- [visualgo - 알고리즘 시각화 사이트](https://visualgo.net/en)
+- [삼성에서 C, C++, JAVA로 구현한 Algorithm, DS 코드](https://www.codeground.org/common/popCodegroundNote)
+
+## PS 관련 사이트
+- [백준 온라인 저지(Baekjoon Online Judge)](https://www.acmicpc.net/)
+- [알고스팟](https://algospot.com/)
+- [정올](http://www.jungol.co.kr/)
+- [프로그래머스](https://programmers.co.kr/)
+- [HackerRank](https://www.hackerrank.com/)
+
+## 대회
+- [codeforces](http://codeforces.com/)
+- [Atcoder](https://atcoder.jp/)
+- [Topcoder](https://www.topcoder.com/)
+
+## 연간 대회
+- [Google Codejam](https://codingcompetitions.withgoogle.com/codejam)
+- [Facebook Hackercup](https://www.facebook.com/hackercup/)
+- [삼성 코드그라운드](https://www.codeground.org/)
+- [ACM-ICPC](http://icpckorea.org/)
