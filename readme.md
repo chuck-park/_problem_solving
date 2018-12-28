@@ -13,5 +13,5 @@
 - 11718 그대로 출력하기
 
 # 참고링크
-[박트리님의 알고리즘 공부방법/순서](http://baactree.tistory.com/14)
-[사용하기 편한 webIDE - ideone](https://ideone.com/)
+- [박트리님의 알고리즘 공부방법/순서](http://baactree.tistory.com/14)
+- [사용하기 편한 webIDE - ideone](https://ideone.com/)
