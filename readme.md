@@ -2,7 +2,6 @@
 PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
 
 # BOJ
-
 ## cpp
 - 10950 A+B - 3
 - 10951 A+B - 4
@@ -10,6 +9,8 @@ PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
 - 10953 A+B - 6
 - 2675 Repeating Characters
 - 1100 하얀칸
+- 2003 수들의 합 2
+- 1912 연속합
 
 ## python
 - 10929 SHA-224
