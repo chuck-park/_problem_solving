@@ -10,8 +10,12 @@ PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
 - 2675 Repeating Characters
 - 1100 하얀칸
 - 2003 수들의 합 2
+
+Brute-Force Search
 - 1912 연속합
 - 2309 일곱 난쟁이
+- 2231 Digit Generator(분해합)
+- 3085 BOMBONI(사탕 게임)
 
 ## python
 - 10929 SHA-224
