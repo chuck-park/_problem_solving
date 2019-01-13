@@ -1,6 +1,12 @@
 # Problem Solving
 PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
 
+# Algorithm
+## DP
+- fibonacci
+
+## Brute-force search
+
 # BOJ
 ## cpp
 - 10950 A+B - 3
