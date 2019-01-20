@@ -6,6 +6,7 @@ PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
 - fibonacci
 
 ## Brute-force search
+- Brute-force search
 
 # BOJ
 ## cpp
@@ -22,6 +23,10 @@ Brute-Force Search
 - 2309 일곱 난쟁이
 - 2231 Digit Generator(분해합)
 - 3085 BOMBONI(사탕 게임)
+
+Stack
+- 9012 VPS(Valid Parentheses String)
+- 1918 후위표기식
 
 ## python
 - 10929 SHA-224
