@@ -27,6 +27,7 @@ Brute-Force Search
 Stack
 - 9012 VPS(Valid Parentheses String)
 - 1918 후위표기식
+- 1925 후위표기식2
 
 ## python
 - 10929 SHA-224
