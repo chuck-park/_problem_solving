@@ -1,3 +1,5 @@
+# 1. 오픈 채팅방
+
 def solution(record):
     db_users = {}
     answer = []
