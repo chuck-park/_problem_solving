@@ -1,69 +1,59 @@
-// 유기농 배추
-
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
-int T;
-int M, N, K; // 배추밭 col, row, 배추가 심어진 위치의 개수
-int answer;
-int x, y;
-int map[50][50];
-int dir[4][2] = {{1,0}, {-1,0}, {0,-1}, {0,1}}; // 동서남북
+#define MAX 51
+int M, N, K;
+int farm[MAX][MAX];
 
-void dfs(int x, int y) {
-    map[x][y] = 0;
+// 동서남북
+int dirR[4]{0, 0, 1, -1};
+int dirC[4]{1, -1, 0, 0};
+
+void dfs(int r, int c) {
+    farm[r][c] = 0; // 이미 방문한 곳은 0으로 변경해서 중복 방문 방지
 
     for(int i=0; i<4; i++) {
-        int nextX = x + dir[i][0];
-        int nextY = y + dir[i][1];
+        int nextR = r + dirR[i];
+        int nextC = c + dirC[i];
 
-        if(nextX < 0 || nextY < 0 || nextX >= N || nextY >= M) continue;
-        if(map[nextX][nextY] != 1) continue;
-
-        dfs(nextX, nextY);
+        // 예외처리
+        if(nextR < 0 || nextR > N || nextC < 0 || nextC > M) continue;
+        if(farm[nextR][nextC] == 0) continue;
+        dfs(nextR, nextC);
     }
 }
 
 int main() {
-
+    int T;
     cin >> T;
 
-    for(int i=0; i<T; i++) {
+    while(T--) {
+        int warm = 0;
         cin >> M >> N >> K;
-        answer = 0;
 
-        // map setting with 0
-        for(int i=0; i<N; i++) { // row
-            for(int j=0; j<M; j++) { // col
-                map[i][j] = 0;
-            }
-        }
-
-        // cabbage setting with 1
         for(int i=0; i<K; i++) {
-            cin >> y >> x;
-            map[x][y] = 1;
+            int r, c;
+            cin >> c >> r;
+            farm[r][c] = 1;
         }
 
         for(int i=0; i<N; i++) {
-            for(int j=0; j<M; j++) {
-                if(map[i][j] == 1) {
-                    answer++;
+            for(int j = 0; j < M; j++) {
+                if(farm[i][j] != 0) {
+                    // print all
+//                    for (int i = 0; i < N; i++) {
+//                        for (int j = 0; j < M; j++) {
+//                            cout << farm[i][j] << " ";
+//                        }
+//                        cout << "\n";
+//                    }
+//                    cout << "\n";
+                    warm++;
                     dfs(i, j);
                 }
             }
         }
-//        // print all
-//        for(int i=0; i<N; i++) {
-//            cout << "\n";
-//            for(int j=0; j<M; j++) {
-//                cout << map[i][j] << " ";
-//            }
-//        }
-//        cout << "\n";
-
-        cout << answer << "\n";
+        cout << warm << "\n";
     }
 }
