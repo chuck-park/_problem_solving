@@ -14,9 +14,11 @@ PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
 - 10951 A+B - 4
 - 10952 A+B - 5
 - 10953 A+B - 6
-- 2675 Repeating Characters
+- 2675 Repeating Characters(문자열 반복)
 - 1100 하얀칸
 - 2003 수들의 합 2
+- 10991 별 찍기 - 16
+- 11718 그대로 출력하기
 
 Brute-Force Search
 - 1912 연속합
@@ -34,7 +36,8 @@ Stack
 - 11718 그대로 출력하기
 
 # 참고링크
-- [박트리님의 알고리즘 공부방법/순서](http://baactree.tistory.com/14)
+- [Ries님 블로그](https://kks227.blog.me/)
+- [박트리님 블로그](http://baactree.tistory.com/14)
 - [cpp.sh - 심플한 c++용 webIDE](http://cpp.sh/)
 - [ideone - 심플한 webIDE](https://ideone.com/)
 - [Visualgo - 알고리즘 시각화 사이트](https://visualgo.net/en)
