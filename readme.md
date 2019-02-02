@@ -1,12 +1,19 @@
 # Problem Solving
-PS(Problem Solving)을 공부하기 위한 자료 모음 입니다.
+PS(Problem Solving)을 공부하기 위한 자료 및 코드 모음 입니다.
 
 # Algorithm
 ## DP
 - fibonacci
 
-## Brute-force search
-- Brute-force search
+## Brute force search
+- Brute_force_search
+
+## Depth First search
+- depth_first_search_recursion
+- depth_first_search_stack
+
+## Breadth First search
+- breadth_first_search
 
 # BOJ
 ## cpp
