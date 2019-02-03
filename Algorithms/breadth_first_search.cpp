@@ -37,10 +37,11 @@ public:
             int curr = Q.front();
             Q.pop();
             cout << "Node " << curr << " visited" << endl;
+            
             for(int next: adj[curr]) {
                 if(!visited[next]) {
-                    visited[next] = true;
                     Q.push(next);
+                    visited[next] = true;
                 }
             }
          }
