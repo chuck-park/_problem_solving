@@ -55,6 +55,7 @@ Stack
 
 # 참고링크
 - [Ries님 블로그](https://kks227.blog.me/)
+- [BaaaaaaaarkingDog님 블로그](https://blog.encrypted.gg/724)
 - [박트리님 블로그](http://baactree.tistory.com/14)
 - [cpp.sh - 심플한 c++용 webIDE](http://cpp.sh/)
 - [ideone - 심플한 webIDE](https://ideone.com/)
